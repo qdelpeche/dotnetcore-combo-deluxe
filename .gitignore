@@ -1,0 +1,107 @@
+# Visual Studio files
+.vscode/
+.vs/
+*.csproj.user
+
+# .NET Core build directories
+/bin/
+/obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+
+# Logs
+*.log
+
+# Application Insights
+ApplicationInsights.config
+ApplicationInsights.json
+
+# Environment variables
+.env
+*.env
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Generated code
+Generated/
+Generated/**/*.*
+*.generated.cs
+!Generated/Readme.md
+
+# Publish output
+publish/
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+Dockerfile
+
+# NPM packages (if used in the project)
+node_modules/
+
+# Yarn files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# JetBrains Rider and Resharper
+.idea/
+_ReSharper*/
+
+# Temporary files
+*.swp
+*.swo
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Web server logs
+logs/
+
+# Coverage files (for code coverage tools)
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+.trx
+*.cobertura.xml
+
+# Publish web artifacts
+wwwroot/
+dist/
+
+# Azure files
+.localhistory/
+.terraform/
+.azure/
+
+# IDE specific files
+.idea/
