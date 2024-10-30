@@ -1,4 +1,4 @@
-# .NET Core Website
+# .NET Core Combo Deluxe
 
 This .NET Core Combo Deluxe uses OpenIdConnectDefaults for the web pages and JwtBearerDefaults for the REST endpoints. It will authenticate and authorize with Entra ID in Azure and works perfectly with the free tier. 
 
