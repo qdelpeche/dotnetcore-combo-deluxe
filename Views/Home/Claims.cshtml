@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Claims";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>@User.Claims.First(c => c.Type == "name").Value</p>
+@{
+    var claims = User.Claims;
+    foreach (var  claim in claims) {
+        <span><b>@claim.Type</b>: @claim.Value</span><br/>
+    }
+}

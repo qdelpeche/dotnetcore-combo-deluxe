@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "25886ec4-ecae-4b0d-89f4-473f7e4325e9",
+		"name": "DotNetCoreComboDeluxe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "571984"
+	},
+	"item": [
+		{
+			"name": "No Scope",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/noscope",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"noscope"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Required Scope",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/requiredscope",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"requiredscope"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

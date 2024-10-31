@@ -1,12 +1,14 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Web.Resource;
 using DotNetCoreComboDeluxe.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-[Microsoft.AspNetCore.Mvc.Route("api/noscope")]
+[Route("api/requiredscope")]
+[RequiredScope("crud")]
 [ApiController]
-public class NoScopeController : ControllerBase
+public class RequiredScopeController : ControllerBase
 {
     
     [HttpGet]
@@ -15,10 +17,10 @@ public class NoScopeController : ControllerBase
     {
         var result = new ResponseModel
         {
-            Message = "This is a protected endpoint but requires no scope",
+            Message = "This is a protected endpoint that requires the crud scope",
             Date = DateTime.UtcNow
         };
-        
+
         return Ok(result);
     }
 }

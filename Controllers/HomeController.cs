@@ -14,14 +14,13 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    [AllowAnonymous]
     public IActionResult Index()
     {
         return View();
     }
 
     [Authorize]
-    public IActionResult Privacy()
+    public IActionResult Claims()
     {
         return View();
     }
