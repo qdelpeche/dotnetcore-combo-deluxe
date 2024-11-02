@@ -31,7 +31,7 @@ This .NET Core Combo Deluxe uses OpenIdConnectDefaults for the web pages and Jwt
 1. Replace ``<APPLICATION_ID_URI>`` with the **Application ID URI** from the app in Step 1.
 
 ## Tutorials
-* https://learn.microsoft.com/en-us/aspnet/core/security/authentication/azure-active-directory/?view=aspnetcore-8.0
+* [https://learn.microsoft.com/en-us/aspnet/core/security/authentication/azure-active-directory/?view=aspnetcore-8.0](Microsoft Entra ID with ASP.NET Core)
 
 ## Versions
 * .NET: 8.0.10
